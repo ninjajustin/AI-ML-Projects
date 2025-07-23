@@ -1,0 +1,2 @@
+# AI-Powered Semantic Product Recommendation with BERT
+This assignment involves building a semantic search and recommendation system for an e-commerce platform using BERT-based embeddings. I preprocessed product descriptions and user queries, generate embeddings to capture semantic similarity, and rank products accordingly. I also implemented the end-to-end NLP pipeline, visualize AI vs. keyword search results, and reflect on the business benefits of AI-driven product discoverability.
