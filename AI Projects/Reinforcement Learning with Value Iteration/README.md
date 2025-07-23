@@ -1,0 +1,2 @@
+# Reinforcement Learning with Value Iteration
+Implemented a value iteration algorithm to compute an optimal policy on a 2D grid world with stochastic movement. Unlike deterministic pathfinding, the agent has a probability distribution over outcomes (e.g., 70% intended direction, 10% each unintended). The algorithm calculates expected utilities for all states, applying the Bellman equation iteratively until convergence. Also includes a utility to visualize the policy as a directional grid.

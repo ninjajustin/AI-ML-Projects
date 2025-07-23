@@ -1,0 +1,2 @@
+# A Search Visualized with Streamlit
+Refactored and surfaced my A* search algorithm using Streamlit, allowing stakeholders to interact with and visualize the shortest path generated on a terrain-based grid map. The app lets users define custom maps, start/goal locations, and see terrain costs reflected in real-time. This interactive interface enhances algorithm transparency and provides a user-friendly demo environment for pathfinding logic in uncertain terrains.

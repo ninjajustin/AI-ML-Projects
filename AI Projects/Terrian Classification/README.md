@@ -1,0 +1,4 @@
+# Terrian Classification
+In this assignment, I implemented a logistic regression classifier to identify whether a terrain image corresponds to hills or non-hills using simple gray scale 4×4 pixel images from an agent’s left, front, and right camera views. Each image was flattened into a 16-dimensional feature vector. The model was trained as a binary classifier to distinguish hill terrain from other types (plain, forest, swamp).
+
+To evaluate performance, I generated a confusion matrix on test data, allowing me to assess accuracy, false positives, and false negatives. This simulates how an agent might use sensor data to interpret unknown terrain types in a GPS-mapped grid.

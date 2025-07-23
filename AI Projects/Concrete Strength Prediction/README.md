@@ -1,0 +1,4 @@
+# k-Nearest Neighbors & Model Evaluation – Concrete Strength Prediction
+Implemented a kNN regression model to estimate the compressive strength of concrete based on material composition and age. Used 10-fold cross-validation and Mean Squared Error (MSE) to evaluate model performance against a baseline (mean-only predictor). Tuned the hyperparameter 
+𝑘
+k using validation curves to optimize model accuracy, and evaluated generalization error on held-out data. The final model showed improved predictive power over the baseline and initial configuration. Also explored additional analysis via a "Choose Your Own Adventure" extension.
