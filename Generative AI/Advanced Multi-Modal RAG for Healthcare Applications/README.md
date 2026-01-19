@@ -1,0 +1,9 @@
+# Advanced Multi-Modal RAG for Healthcare Applications
+
+In this assignment, I explored advanced Retrieval-Augmented Generation (RAG) techniques by building and evaluating a multi-modal RAG system for a healthcare use case. The project centered on NutriWise, a healthcare startup aiming to provide users with accurate nutrition information through an AI assistant that can retrieve both text and images to support its responses.
+
+I implemented a RAG pipeline using ChromaDB for vector storage, combining PDF-based nutrition documents with image embeddings to enable multi-modal retrieval. The system included key components such as document chunking and embedding, semantic retrieval, cross-encoder reranking, query expansion, and response generation. Query expansion and reranking significantly improved retrieval quality by refining user queries and prioritizing the most relevant document chunks before generation.
+
+To evaluate the system, I analyzed retrieval relevance, compared original versus expanded queries, and tested hallucination risk by asking questions outside the document scope. The assistant correctly declined to answer unsupported questions, demonstrating effective source grounding. I also examined how chunking strategy, embedding quality, and reranking impact response accuracy in high-stakes domains like healthcare.
+
+Overall, this assignment reinforced the importance of retrieval quality, reranking, and hallucination guardrails in production-ready RAG systems. It highlighted how multi-modal retrieval and advanced query techniques can improve trust, accuracy, and user experience in real-world AI applications, especially in sensitive domains such as healthcare.
